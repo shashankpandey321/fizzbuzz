@@ -1,5 +1,8 @@
-#include <stdio.h>
+/*For a given maximum input value n, create a function that outputs integers from 1 to n.
+But, if an integer is divisible by three, then the number should be replaced with the word “Fizz.”
+Numbers divisible by five should say “Buzz” instead. And numbers divisible by both three and five should say “FizzBuzz.”*\
 
+#include <stdio.h>
 int main() {
     int n;
     printf("enter number");
